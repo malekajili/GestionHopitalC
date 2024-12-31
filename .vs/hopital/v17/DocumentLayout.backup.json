@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\manage-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\manage-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\manage-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\manage-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\add-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\add-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\edit-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\edit-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\edit-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\edit-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\add-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\add-doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|c:\\users\\malek\\source\\repos\\c#\\hopital\\hopital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD71A7D0-0690-4942-91A2-DE74AFB281B8}|hopital\\hopital.csproj|solutionrelative:hopital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "edit-doctor.cs",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\edit-doctor.cs",
+              "RelativeDocumentMoniker": "hopital\\edit-doctor.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\edit-doctor.cs",
+              "RelativeToolTip": "hopital\\edit-doctor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwDIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T20:57:53.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "edit-doctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\edit-doctor.cs",
+              "RelativeDocumentMoniker": "hopital\\edit-doctor.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\edit-doctor.cs [Design]",
+              "RelativeToolTip": "hopital\\edit-doctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T20:43:53.586Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "manage-doctor.cs",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\manage-doctor.cs",
+              "RelativeDocumentMoniker": "hopital\\manage-doctor.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\manage-doctor.cs*",
+              "RelativeToolTip": "hopital\\manage-doctor.cs*",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:36:28.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "manage-doctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\manage-doctor.cs",
+              "RelativeDocumentMoniker": "hopital\\manage-doctor.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\manage-doctor.cs [Design]*",
+              "RelativeToolTip": "hopital\\manage-doctor.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:31:21.936Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "add-doctor.cs",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\add-doctor.cs",
+              "RelativeDocumentMoniker": "hopital\\add-doctor.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\add-doctor.cs",
+              "RelativeToolTip": "hopital\\add-doctor.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwDsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:13:54.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "add-doctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\add-doctor.cs",
+              "RelativeDocumentMoniker": "hopital\\add-doctor.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\add-doctor.cs [Design]",
+              "RelativeToolTip": "hopital\\add-doctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:12:18.076Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\Main.cs",
+              "RelativeDocumentMoniker": "hopital\\Main.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\Main.cs",
+              "RelativeToolTip": "hopital\\Main.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAnwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:00:45.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\Main.cs",
+              "RelativeDocumentMoniker": "hopital\\Main.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\Main.cs [Design]",
+              "RelativeToolTip": "hopital\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:50:53.691Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\Form1.cs",
+              "RelativeDocumentMoniker": "hopital\\Form1.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\Form1.cs",
+              "RelativeToolTip": "hopital\\Form1.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAjwCoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:34:24.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\Form1.cs",
+              "RelativeDocumentMoniker": "hopital\\Form1.cs",
+              "ToolTip": "C:\\Users\\malek\\source\\repos\\C#\\hopital\\hopital\\Form1.cs [Design]",
+              "RelativeToolTip": "hopital\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:33:03.735Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
