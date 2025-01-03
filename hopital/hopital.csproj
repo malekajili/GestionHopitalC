@@ -58,6 +58,11 @@
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.NonGeneric.4.3.0\lib\net46\System.Collections.NonGeneric.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
@@ -98,16 +103,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="add-doctor.cs">
+    <Compile Include="dao\PatientEntity.cs" />
+    <Compile Include="dao\UserBaseEntity.cs" />
+    <Compile Include="forms\doctors\add-doctor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="add-doctor.Designer.cs">
+    <Compile Include="forms\doctors\add-doctor.Designer.cs">
       <DependentUpon>add-doctor.cs</DependentUpon>
     </Compile>
-    <Compile Include="edit-doctor.cs">
+    <Compile Include="forms\patients\AddPatient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="edit-doctor.Designer.cs">
+    <Compile Include="forms\patients\AddPatient.Designer.cs">
+      <DependentUpon>AddPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\patients\EditPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\patients\EditPatient.Designer.cs">
+      <DependentUpon>EditPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\patients\ManagePatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\patients\ManagePatient.Designer.cs">
+      <DependentUpon>ManagePatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="services\PatientService.cs" />
+    <Compile Include="utils\DatabaseHelper.cs" />
+    <Compile Include="forms\doctors\edit-doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\doctors\edit-doctor.Designer.cs">
       <DependentUpon>edit-doctor.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -116,33 +143,53 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\users\ManageUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\users\ManageUsers.Designer.cs">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="manage-doctor.cs">
+    <Compile Include="forms\doctors\manage-doctor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="manage-doctor.Designer.cs">
+    <Compile Include="forms\doctors\manage-doctor.Designer.cs">
       <DependentUpon>manage-doctor.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="add-doctor.resx">
+    <Compile Include="services\UserService.cs" />
+    <Compile Include="utils\PasswordHasher.cs" />
+    <EmbeddedResource Include="forms\doctors\add-doctor.resx">
       <DependentUpon>add-doctor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="edit-doctor.resx">
+    <EmbeddedResource Include="forms\doctors\edit-doctor.resx">
       <DependentUpon>edit-doctor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\patients\AddPatient.resx">
+      <DependentUpon>AddPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\patients\EditPatient.resx">
+      <DependentUpon>EditPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\patients\ManagePatient.resx">
+      <DependentUpon>ManagePatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\users\ManageUsers.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="manage-doctor.resx">
+    <EmbeddedResource Include="forms\doctors\manage-doctor.resx">
       <DependentUpon>manage-doctor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -183,6 +230,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\3481061.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -52,7 +52,8 @@
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1271, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(953, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,20 +63,20 @@
             this.addDoctorToolStripMenuItem,
             this.manageDoctorToolStripMenuItem});
             this.doctorsToolStripMenuItem.Name = "doctorsToolStripMenuItem";
-            this.doctorsToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.doctorsToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.doctorsToolStripMenuItem.Text = "Doctors";
             // 
             // addDoctorToolStripMenuItem
             // 
             this.addDoctorToolStripMenuItem.Name = "addDoctorToolStripMenuItem";
-            this.addDoctorToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.addDoctorToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.addDoctorToolStripMenuItem.Text = "Add Doctor";
             this.addDoctorToolStripMenuItem.Click += new System.EventHandler(this.addDoctorToolStripMenuItem_Click);
             // 
             // manageDoctorToolStripMenuItem
             // 
             this.manageDoctorToolStripMenuItem.Name = "manageDoctorToolStripMenuItem";
-            this.manageDoctorToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.manageDoctorToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.manageDoctorToolStripMenuItem.Text = "Manage Doctor";
             this.manageDoctorToolStripMenuItem.Click += new System.EventHandler(this.manageDoctorToolStripMenuItem_Click);
             // 
@@ -85,25 +86,27 @@
             this.addPatientToolStripMenuItem,
             this.managePatientToolStripMenuItem});
             this.patientToolStripMenuItem.Name = "patientToolStripMenuItem";
-            this.patientToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.patientToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.patientToolStripMenuItem.Text = "Patient";
             // 
             // addPatientToolStripMenuItem
             // 
             this.addPatientToolStripMenuItem.Name = "addPatientToolStripMenuItem";
-            this.addPatientToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.addPatientToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.addPatientToolStripMenuItem.Text = "Add Patient";
+            this.addPatientToolStripMenuItem.Click += new System.EventHandler(this.addPatientToolStripMenuItem_Click);
             // 
             // managePatientToolStripMenuItem
             // 
             this.managePatientToolStripMenuItem.Name = "managePatientToolStripMenuItem";
-            this.managePatientToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.managePatientToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.managePatientToolStripMenuItem.Text = "Manage Patient";
+            this.managePatientToolStripMenuItem.Click += new System.EventHandler(this.managePatientToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -117,9 +120,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("PMingLiU-ExtB", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(384, 105);
+            this.label1.Location = new System.Drawing.Point(288, 85);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(563, 40);
+            this.label1.Size = new System.Drawing.Size(445, 32);
             this.label1.TabIndex = 2;
             this.label1.Text = "Welcome to Hospiytal Management";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -130,16 +134,17 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::hopital.Properties.Resources.medical_symbol;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1271, 769);
+            this.ClientSize = new System.Drawing.Size(953, 625);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main";
             this.Text = "main";
             this.Load += new System.EventHandler(this.main_Load);

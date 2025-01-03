@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using hopital.forms.patients;
+using hopital.services;
 
 namespace hopital
 {
     public partial class Main : Form
     {
+        private PatientService patientService;
         public Main()
         {
             InitializeComponent();
+            patientService = new PatientService();
             timer1.Enabled = true;
         }
 
@@ -49,6 +53,18 @@ namespace hopital
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void addPatientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddPatient addPatient = new AddPatient(patientService);
+            addPatient.Show();
+        }
+
+        private void managePatientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ManagePatient managePatient = new ManagePatient(patientService);
+            managePatient.Show();
         }
     }
 }
